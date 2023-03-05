@@ -1,0 +1,770 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-regular.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-700.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-800 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/inter-v12-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v12-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v12-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v12-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v12-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v12-latin-800.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+
+.narrowcontainer {
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+
+/* Header */
+header {
+  display: flex;
+  max-width: 1100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+a.ilogo {
+  color: black;
+}
+
+.ilogo > img {
+  max-width: 80px;
+}
+
+.menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  list-style-type: none;
+  color: rgb(93, 95, 121);
+  display: flex;
+  padding: 14px;
+  margin: 12px;
+}
+
+.menu > li {
+  vertical-align: text-bottom;
+  margin: 12px;
+}
+
+.menu > li > a {
+}
+
+.menu a:link,
+.menu a:visited {
+  color: rgb(93, 95, 121);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: rgb(245, 157, 35);
+  text-decoration: none;
+}
+
+.menu a:active {
+  color: rgb(93, 95, 121);
+  text-decoration: none;
+}
+
+#activo {
+  text-decoration: none;
+}
+
+/* Body */
+
+.textl {
+  font-size: 14px;
+  color: rgb(245, 157, 35);
+}
+
+a:hover.textl {
+  color: rgb(93, 95, 121);
+}
+
+/* Body- index */
+
+.boxhero {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hero {
+  background-color: rgb(240, 93, 80);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 33.3%;
+}
+
+.hero > img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.herotext {
+  background-color: rgb(245, 157, 35);
+  padding: 30px;
+  flex: 1;
+}
+
+.refcient {
+  margin-top: 40px;
+
+  text-align: center;
+}
+
+.refcient > h2 {
+  margin-bottom: 0;
+}
+
+.mujeres {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  max-width: 1100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 30; */
+  padding: 0;
+}
+
+.mujeres > li {
+  text-decoration: none;
+  font-size: 12px;
+  flex: 1;
+  text-align: left;
+  padding: 5px;
+}
+
+.mujeres > li:first-child {
+  padding-left: 0px;
+}
+
+.mujeres > li:last-child {
+  padding-right: 0px;
+}
+
+.mujeres > li > img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.mujername {
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(93, 95, 121);
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+a.mujeresl {
+  color: rgb(93, 95, 121);
+}
+
+a:hover.mujeresl {
+  color: rgb(245, 157, 35);
+}
+
+/* ------- Body - Referentes --------- */
+
+.containerref {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: content;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}
+
+aside > ul > li {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+aside > ul {
+  padding-inline-start: 0px;
+}
+
+aside a {
+  color: rgb(245, 157, 35);
+}
+
+aside a:hover {
+  color: rgb(93, 95, 121);
+}
+
+.ref {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(93, 95, 121);
+}
+
+.column1 {
+  font-size: 10px;
+  font-weight: 800;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.column2 {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.nombreref {
+  font-size: 14px;
+}
+.column2 > img {
+  display: block;
+  width: 100%;
+}
+
+.column3 {
+  font-size: 12px;
+  max-width: 500px;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.rednumber {
+  color: rgb(240, 93, 80);
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ------- Body- 11 de febrero --------- */
+
+.textcenter {
+  text-align: center;
+  line-height: 24px;
+}
+
+.p11f {
+  font-size: 14px;
+  line-height: 20px;
+}
+.narrowcontainer > p {
+  font-size: 12px;
+}
+
+.quoteback {
+  max-width: 700px;
+  padding: 10px;
+  background-color: rgb(227, 228, 230);
+  margin: 20px;
+  margin: 0 auto;
+  justify-content: start;
+}
+
+.quote {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.smallq {
+  font-size: 10px;
+}
+
+.guionred {
+  color: rgb(240, 93, 80);
+  height: 10px;
+  width: 4%;
+  border-style: none;
+}
+
+.video {
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 10px;
+  margin: 20px;
+}
+
+/* ------- Body - Iniciativas --------- */
+dl {
+  list-style-type: disc;
+  /* align-items: left; */
+}
+
+dl dt::before {
+  content: "\25A0"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(240, 93, 80); /* Change the color */
+  font-weight: 700; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.2em; /* Also needed for space (tweak if needed) */
+}
+
+dt {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(93, 95, 121);
+}
+
+dd {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 14px;
+  margin-bottom: 8px;
+  margin-inline-start: 20px;
+}
+
+.linea {
+  color: rgb(240, 93, 80);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* -----Footer------- */
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(245, 157, 35);
+}
+
+a.mailto {
+  color: white;
+}
+
+.logofooter {
+  display: block;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.imgf {
+  display: block;
+  margin: 0 auto;
+  max-width: 75px;
+}
+
+.mailto {
+  font-size: 10px;
+}
+
+form {
+  margin-top: 22px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.boletin {
+  font-size: 14px;
+  line-height: 8px;
+}
+
+.email {
+  font-size: 16px;
+}
+
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 0.1px white;
+  width: 100%;
+  max-width: 350px;
+  color: rgb(93, 95, 121);
+  text-align: center;
+  line-height: 28px;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+  outline: none;
+}
+
+.politica {
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+.send {
+  background-color: rgb(240, 93, 80);
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  padding: 7px 10px 7px 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+.menufoot {
+  font-size: 10px;
+}
+
+.menufoot > li {
+  margin: 8px;
+  list-style-type: none;
+  display: flex;
+  display: inline-block;
+}
+
+.smallf {
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  line-height: 6px;
+}
+
+/* -------------Tamaños Dispositivos----------------------------------------------------------- */
+
+@media screen and (max-width: 970px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .container {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+  }
+
+  .menu {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  /* -------------Index970---- */
+  .boxhero {
+    display: block;
+  }
+
+  .hero {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+  }
+
+  .mujeres {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 30; */
+    padding: 0;
+  }
+
+  .mujeres > li {
+    text-decoration: none;
+    font-size: 12px;
+    width: 50%;
+    box-sizing: border-box;
+    flex: initial;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .mujeres > li:first-child {
+    padding-left: 0px;
+  }
+
+  .mujeres > li:last-child {
+    padding-right: 0px;
+  }
+
+  .mujeres > li > img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .mujername {
+    font-weight: 800;
+    font-size: 14px;
+    color: rgb(93, 95, 121);
+    text-decoration: none;
+    margin-top: 4px;
+  }
+
+  /* -------------Referentes970------------------------ */
+
+  .containerref {
+    display: block;
+  }
+
+  aside > ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    max-width: 700px;
+  }
+
+  aside > ul > li {
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    line-height: 10px;
+  }
+
+  aside > ul > li:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    width: 3px;
+    height: 3px;
+    background-color: rgb(245, 157, 35);
+    border-radius: 50px;
+  }
+  /* -------------11 Febrero970------------------------ */
+  /* -------------Iniciativas970------------------------ */
+  .narrowcontainer {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  /* -----Footer970------- */
+
+  a.mailto {
+    color: white;
+  }
+
+  .smallf > p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .menu {
+    display: block;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .boxhero {
+    display: block;
+  }
+
+  .hero {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .textlink {
+    /* font-size: ; */
+    font-weight: 600;
+  }
+
+  .mujeres {
+    display: block;
+    justify-content: center;
+  }
+
+  .mujeres > li {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+  }
+
+  /* -------------Referentes------------------------ */
+
+  .ref {
+    flex-direction: column;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: auto;
+  }
+
+  /* -------------11 Febrero------------------------ */
+
+  .quoteback {
+    margin: 0 auto;
+    margin: 5px;
+    max-width: 420px;
+  }
+
+  .video {
+    width: 100%;
+    max-width: 800px;
+    width: auto;
+  }
+
+  .figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  /* -------------Iniciativas------------------------ */
+
+  .narrowcontainer {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  /* -------------Footer------------------------ */
+  .boletin {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .menufoot {
+    padding-inline-start: 0px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+
+  .menufoot > li {
+    margin: 0 auto;
+    display: block;
+  }
+}
